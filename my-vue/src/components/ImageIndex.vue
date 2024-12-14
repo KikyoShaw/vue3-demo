@@ -7,7 +7,7 @@
     </div>
 </template>
 
-<script setup name='image-index'>
+<script setup name='ImageIndex'>
     import { reactive } from 'vue'
     let imgList = reactive([
         new URL('../assets/img/back1.jpg',import.meta.url).href

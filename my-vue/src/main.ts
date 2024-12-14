@@ -1,4 +1,10 @@
 
 import { createApp } from "vue";
+
+// import installIcons from "./icon";
+
 import App from "./App.vue";
-createApp(App).mount('#app')
+
+const app = createApp(App);
+// installIcons(app);
+app.mount('#app')

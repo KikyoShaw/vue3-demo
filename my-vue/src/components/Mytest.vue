@@ -58,7 +58,7 @@ export default
 }
 </script> -->
 
-<script setup name='my-test'>
+<script setup name='MyTest'>
     import {reactive, ref, toRefs, toRef, watch} from "vue";
 
     let name = ref('梁钟保')
