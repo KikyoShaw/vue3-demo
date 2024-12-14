@@ -4,16 +4,18 @@
         <hr>
         <ImageIndex/>
         <hr>
-        <span class="svg-container">
+        <!-- <span class="svg-container">
             <svg-icon icon="vite"/>
-        </span>
+        </span> -->
+        <SvgIcon name="vite" size="20px"></SvgIcon>
     </div>
 </template>
 
 <script setup name='Person'>
     import ImageIndex from './ImageIndex.vue'
     import MyTest from './MyTest.vue'
-    import SvgIcon from './MySvg.vue'
+    // import SvgIcon from './MySvg.vue'
+    import SvgIcon from './MyNewSvg.vue'
 </script>
 
 <style scoped>
